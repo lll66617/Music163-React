@@ -1,5 +1,5 @@
-import React from 'react'
-import { Redirect } from 'react-router-dom'
+import React from 'react';
+import { Redirect } from 'react-router-dom';
 
 const JMDiscover = React.lazy(() => import('@/pages/discover'))
 const JMRecommend = React.lazy(() =>
