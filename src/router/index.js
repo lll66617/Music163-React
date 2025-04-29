@@ -30,7 +30,8 @@ const JMSonglist = React.lazy(() => import('@/pages/song-detail'))
 const JMUser = React.lazy(() => import('@/pages/profile'))
 const JMVip = React.lazy(() => import('@/pages/vip'))
 
-const JM404 = React.lazy(() => import('@/pages/404'))
+
+const JMTest = React.lazy(() => import('@/pages/test'))
 
 const routes = [
   { path: '/', exact: true, render: () => <Redirect to="/discover" /> },
@@ -88,9 +89,10 @@ const routes = [
     exact: true,
     component: JMUser,
   },
-
   {
-    component: JM404,
+    path: '/test',
+    exact: true,
+    component: JMTest,
   },
 ]
 
