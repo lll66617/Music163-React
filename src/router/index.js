@@ -31,7 +31,7 @@ const JMUser = React.lazy(() => import('@/pages/profile'))
 const JMVip = React.lazy(() => import('@/pages/vip'))
 
 
-const JMTest = React.lazy(() => import('@/pages/index.js'))
+const JMTest = React.lazy(() => import('@/pages/test1'))
 
 const routes = [
   { path: '/', exact: true, render: () => <Redirect to="/discover" /> },
